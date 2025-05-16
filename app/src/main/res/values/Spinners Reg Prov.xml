@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tipo_prov_opc">
+        <item>Seleccionar tipo</item>
+        <item>Persona</item>
+        <item>Empresa</item>
+    </string-array>
+
+    <string-array name="provincia_opc">
+        <item>Seleccionar provincia</item>
+        <item>Barranca</item>
+        <item>Cajatambo</item>
+        <item>Canta</item>
+        <item>Cañete</item>
+        <item>Huaral</item>
+        <item>Huarochirí</item>
+        <item>Huaura</item>
+        <item>Lima provincia</item>
+        <item>Oyón</item>
+        <item>Yauyos</item>
+    </string-array>
+
+    <string-array name="dist_barranca_opc">
+        <item>Seleccionar distrito</item>
+        <item>Barranca</item>
+        <item>Paramonga</item>
+        <item>Pativilca</item>
+        <item>Supe</item>
+        <item>Supe Puerto</item>
+    </string-array>
+
+    <string-array name="dist_cajatambo_opc">
+        <item>Cajatambo</item>
+        <item>Copa</item>
+        <item>Gorgor</item>
+        <item>Huancapón</item>
+        <item>Manás</item>
+    </string-array>
+
+    <string-array name="dist_canta_opc">
+        <item>Arahuay</item>
+        <item>Canta</item>
+        <item>Huamantanga</item>
+        <item>Huaros</item>
+        <item>Lachaqui</item>
+        <item>San Buenaventura</item>
+        <item>Santa Rosa de Quives</item>
+    </string-array>
+
+    <string-array name="dist_cañete_opc">
+        <item>Asia</item>
+        <item>Calango</item>
+        <item>Cerro Azul</item>
+        <item>Chilca</item>
+        <item>Coayllo</item>
+        <item>Imperial</item>
+        <item>Lunahuaná</item>
+        <item>Mala</item>
+        <item>Nuevo Imperial</item>
+        <item>Pacarán</item>
+        <item>Quilmaná</item>
+        <item>San Antonio</item>
+        <item>San Luis</item>
+        <item>San Vicente</item>
+        <item>Santa Cruz de Flores</item>
+        <item>Zúñiga</item>
+    </string-array>
+
+    <string-array name="dist_huaral_opc">
+        <item>Atavillos Alto</item>
+        <item>Atavillos Bajo</item>
+        <item>Aucallama</item>
+        <item>Chancay</item>
+        <item>Ihuari</item>
+        <item>Huaral</item>
+        <item>Lampián</item>
+        <item>Pacaraos</item>
+        <item>San Miguel de Acos</item>
+        <item>Santa Cruz de Andamarca</item>
+        <item>Sumbilca</item>
+        <item>Veintisiete de Noviembre</item>
+    </string-array>
+
+    <string-array name="dist_huarochiri_opc">
+        <item>Antioquía</item>
+        <item>Callahuanca</item>
+        <item>Carampoma</item>
+        <item>Chicla</item>
+        <item>Cuenca</item>
+        <item>Huachupampa</item>
+        <item>Huanza</item>
+        <item>Huarochirí</item>
+        <item>Lahuaytambo</item>
+        <item>Langa</item>
+        <item>Laraos</item>
+        <item>Mariatana</item>
+        <item>Matucana</item>
+        <item>Ricardo Palma</item>
+        <item>San Andrés de Tupicocha</item>
+        <item>San Antonio de Chaclla</item>
+        <item>San Bartolomé</item>
+        <item>San Damián</item>
+        <item>San Jerónimo de Surco</item>
+        <item>San Juan de Iris</item>
+        <item>San Juan de Tantaranche</item>
+        <item>San Lorenzo de Quinti</item>
+        <item>San Mateo</item>
+        <item>San Mateo de Otao</item>
+        <item>San Pedro de Casta</item>
+        <item>San Pedro de Huancayre</item>
+        <item>San Sangallaya</item>
+        <item>Santa Cruz de Cocachacra</item>
+        <item>Santa Eulalia</item>
+        <item>Santiago de Anchucaya</item>
+        <item>Santiago de Tuna</item>
+        <item>Santo Domingo de los Olleros</item>
+    </string-array>
+
+    <string-array name="dist_huaura_opc">
+        <item>Ámbar</item>
+        <item>Caleta de Carquín</item>
+        <item>Checras</item>
+        <item>Huacho</item>
+        <item>Hualmay</item>
+        <item>Huaura</item>
+        <item>Leoncio Prado</item>
+        <item>Paccho</item>
+        <item>Santa Leonor</item>
+        <item>Santa María</item>
+        <item>Sayán</item>
+        <item>Vegueta</item>
+    </string-array>
+
+    <string-array name="dist_lima_opc">
+        <item>Ancón</item>
+        <item>Ate</item>
+        <item>Barranco</item>
+        <item>Breña</item>
+        <item>Carabayllo</item>
+        <item>Chaclacayo</item>
+        <item>Chorrillos</item>
+        <item>Cieneguilla</item>
+        <item>Comas</item>
+        <item>El Agustino</item>
+        <item>Independencia</item>
+        <item>Jesús María</item>
+        <item>La Molina</item>
+        <item>La Victoria</item>
+        <item>Lima</item>
+        <item>Lince</item>
+        <item>Los Olivos</item>
+        <item>Lurigancho-Chosica</item>
+        <item>Lurín</item>
+        <item>Magdalena del Mar</item>
+        <item>Miraflores</item>
+        <item>Pachacámac</item>
+        <item>Pucusana</item>
+        <item>Pueblo Libre</item>
+        <item>Puente Piedra</item>
+        <item>Punta Hermosa</item>
+        <item>Punta Negra</item>
+        <item>Rímac</item>
+        <item>San Bartolo</item>
+        <item>San Borja</item>
+        <item>San Isidro</item>
+        <item>San Juan de Lurigancho</item>
+        <item>San Juan de Miraflores</item>
+        <item>San Luis</item>
+        <item>San Martín de Porres</item>
+        <item>San Miguel</item>
+        <item>Santa Anita</item>
+        <item>Santa María del Mar</item>
+        <item>Santa Rosa</item>
+        <item>Santiago de Surco</item>
+        <item>Surquillo</item>
+        <item>Villa El Salvador</item>
+        <item>Villa María del Triunfo</item>
+    </string-array>
+
+    <string-array name="dist_oyon_opc">
+        <item>Andajes</item>
+        <item>Caujul</item>
+        <item>Cochamarca</item>
+        <item>Naván</item>
+        <item>Oyón</item>
+        <item>Pachangara</item>
+    </string-array>
+
+    <string-array name="dist_yauyos_opc">
+        <item>Alis</item>
+        <item>Ayauca</item>
+        <item>Ayaviri</item>
+        <item>Azángaro</item>
+        <item>Cacra</item>
+        <item>Carania</item>
+        <item>Catahuasi</item>
+        <item>Chocos</item>
+        <item>Colonia</item>
+        <item>Hongos</item>
+        <item>Huampara</item>
+        <item>Huancaya</item>
+        <item>Huañec</item>
+        <item>Laraos</item>
+        <item>Lincha</item>
+        <item>Madean</item>
+        <item>Miraflores</item>
+        <item>Omas</item>
+        <item>Putina</item>
+        <item>Quinches</item>
+        <item>Quintay</item>
+        <item>San Joaquín</item>
+        <item>San Pedro de Pilas</item>
+        <item>Tanta</item>
+        <item>Tauripampa</item>
+        <item>Tomas</item>
+        <item>Tupe</item>
+        <item>Viñac</item>
+        <item>Vitis</item>
+        <item>Huancan</item>
+        <item>Huantán</item>
+        <item>Ñauza</item>
+        <item>Pampas</item>
+    </string-array>
+
+</resources>

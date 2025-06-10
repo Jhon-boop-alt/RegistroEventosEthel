@@ -2,58 +2,56 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/mainProveedores"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/whatsapp_image_2024_06_11_at_4_42_07_pm__1_"
     tools:context=".ListaProveedores">
 
     <ImageView
-        android:id="@+id/imvLogo"
+        android:id="@+id/imvLogoProveedores"
         android:layout_width="412dp"
         android:layout_height="99dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_eventos_ethel"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/logo_eventos_ethel" />
-
-    <GridView
-        android:layout_width="333dp"
-        android:layout_height="372dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imvLogo"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/txvListaProv"
+        android:id="@+id/txvListaProveedores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/archivo_black"
-        android:text="@string/txvListaProv"
+        android:text="Lista de Proveedores"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        android:fontFamily="@font/archivo_black"
+        app:layout_constraintTop_toBottomOf="@+id/imvLogoProveedores"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <GridView
+        android:id="@+id/gridViewProveedores"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:numColumns="1"
+        android:verticalSpacing="16dp"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/txvListaProveedores"
+        app:layout_constraintBottom_toTopOf="@id/btnRegresarLP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/btnRegresarLP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/btnRegresarLP"
-        android:text="@string/btnRegresarLP"
+        android:text="Regresar"
+        android:backgroundTint="@color/btnRegresarLE"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.856" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

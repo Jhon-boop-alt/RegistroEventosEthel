@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/whatsapp_image_2024_06_11_at_4_42_07_pm__1_"
-    tools:context=".EditarProveedores">
+    tools:context=".EditarProveedor">
 
     <ImageView
         android:id="@+id/imvLogo"
@@ -48,6 +48,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.291" />
+
+    <EditText
+        android:id="@+id/txtPrecioEP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/txvCodigoEP"
@@ -138,11 +151,11 @@
         app:layout_constraintVertical_bias="0.761" />
 
     <Button
-        android:id="@+id/btnEliminarEP"
+        android:id="@+id/btnRegresoPP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/btnEliminarEP"
-        android:text="@string/btnEliminarEP"
+        android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.266"
